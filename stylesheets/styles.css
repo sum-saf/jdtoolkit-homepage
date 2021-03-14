@@ -9,11 +9,12 @@ body {
 
 h1 {
 	color: #795b04;
-	font-size: 3em;
+	font-size: 4em;
+	font-family: "Georgia", serif;
 }
 
 p, ul {
-	font-family: "Times New Roman", serif;
+	font-family: "Georgia", serif;
 	color: #795b04;
 	max-width: 30em;
 	width: 100%;
