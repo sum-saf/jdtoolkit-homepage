@@ -38,3 +38,16 @@ img {
   max-width: 500px;
   max-height: 500px;
 }
+
+a {
+background-color: #3dbff2;
+color: #edc621;
+ padding: 1em 1.5em;
+text-decoration: none;
+}
+
+a:hover {
+background-color: #edc621;
+color: #3dbff2;
+cursor: pointer;
+}
