@@ -37,26 +37,20 @@ display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: auto;
 }
 
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
+ul.breadcrumb {
+  padding: 8px 16px;
+  list-style: none;
+  background-color: #eee;
 }
 
-@media only screen and (max-width: 700px){
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
+ul.breadcrumb li {display: inline;}
 
-@media only screen and (max-width: 500px){
-  .responsive {
-    width: 100%;
-  }
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
 }
 
 a {
