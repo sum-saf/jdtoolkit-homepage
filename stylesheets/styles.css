@@ -33,10 +33,30 @@ img.logo {
 }
 
 img {
-  width: 100%;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   height: auto;
-  max-width: 500px;
-  max-height: 500px;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
 }
 
 a {
