@@ -43,13 +43,16 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
   background-color: #795b04;
   position: -webkit-sticky; 
   position: sticky;
   top: 0;
 }
 
+li {
+  float: left;
+}
 
 li a {
   display: block;
