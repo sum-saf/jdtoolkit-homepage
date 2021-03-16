@@ -44,6 +44,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #795b04;
   position: -webkit-sticky; 
   position: sticky;
   top: 0;
@@ -61,7 +62,6 @@ li a {
 }
 
 a {
-background-color: #edc621;
 color: #3dbff2;
 text-decoration: none;
 }
