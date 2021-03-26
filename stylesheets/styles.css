@@ -1,5 +1,5 @@
 body {
-	background-color: #edc621;
+	background-color: #ffffff;
 	margin: 1em auto;
 	font-size: 10px;
 	padding: 1em;
@@ -8,14 +8,14 @@ body {
 }
 
 h1 {
-	color: #795b04;
+	color: #000000;
 	font-size: 4em;
 	font-family: "Georgia", serif;
 }
 
 p, ul {
 	font-family: "Georgia", serif;
-	color: #795b04;
+	color: #000000;
 	max-width: 30em;
 	width: 100%;
 	text-align: left;
@@ -41,10 +41,10 @@ display: block;
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  overflow: auto;
-  background-color: #b3880b;
+  overflow: hidden;
+  background-color: #000000;
   position: -webkit-sticky; 
   position: sticky;
   top: 0;
@@ -62,12 +62,12 @@ li a {
 }
 
 a {
-color: #3dbff2;
+color: #8bc640;
 text-decoration: none;
 }
 
 a:hover {
-background-color: #3dbff2;
-color: #edc621;
+background-color: #ffffff;
+color: #000000;
 cursor: pointer;
 }
