@@ -71,3 +71,9 @@ background-color: #ffffff;
 color: #000000;
 cursor: pointer;
 }
+
+iframe {
+ width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
