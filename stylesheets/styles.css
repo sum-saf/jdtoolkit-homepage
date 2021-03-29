@@ -73,7 +73,6 @@ cursor: pointer;
 }
 
 iframe {
- width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+ display: block;
+margin: auto;
 }
